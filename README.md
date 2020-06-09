@@ -4,7 +4,7 @@
 
 1. Fork this repository.
 2. Clone forked repository.
-3. Run `make init`. (this may take some time)
+3. Run `make init`. (this may take some time.)
 4. Answer the following in the interactive CLI.
 
 ※  Enter a `.` at the `name`.
@@ -18,7 +18,7 @@ organization [com.example]: com.example
 
 ## Run
 
-1. Run `make run`. (this launches an interactive bash, but not input. this may take some time)
+1. Run `make run`. (this launches an interactive bash, but not input. this may take some time.)
 2. If you see the following, access [http//localhost:9000](http//localhost:9000)
 
 ```
@@ -32,9 +32,5 @@ organization [com.example]: com.example
 ## Stop
 
 1. Enter `Ctrl + C` to stop the interactive bash.  
-   ※ At this time, `make` is an error.
-```
-make: *** [run] Error 1
-```
 2. Run `make stop`.  
    ※ This make command stop a container.
